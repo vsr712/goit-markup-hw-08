@@ -1,0 +1,43 @@
+.section-images {
+    padding-top: 0px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.title-images {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--primary-text-color-dark);
+    margin-bottom: 50px;
+}
+
+.images-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-images {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 224px;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-text-color-light);
+    background: rgba(47, 48, 58, 0.8);
+}
