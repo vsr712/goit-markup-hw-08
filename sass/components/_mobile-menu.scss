@@ -140,10 +140,12 @@
 
 .mobile-menu__media-link_current::after {
     position: absolute;
-    display: block;
+    display: inline-block;
     content: "";
+    top: 10px;
     width: 22px;
     height: 0px;
+    color: #212121;
     border: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
 }
