@@ -249,6 +249,7 @@
               <div class="images-wrapper">
                 <img
                   class="images-img"
+                  srcset="./images/img-1.jpg 1x, ./images/img-1@2x.jpg 2x"
                   src="./images/img-1.jpg"
                   alt="Людина працює за комп'ютером"
                   width="370"
@@ -261,6 +262,7 @@
               <div class="images-wrapper">
                 <img
                   class="images-img"
+                  srcset="./images/img-2.jpg 1x, ./images/img-2@2x.jpg 2x"
                   src="./images/img-2.jpg"
                   alt="Людина тримає смартфон"
                   width="370"
@@ -273,6 +275,7 @@
               <div class="images-wrapper">
                 <img
                   class="images-img"
+                  srcset="./images/img-3.jpg 1x, ./images/img-3@2x.jpg 2x"
                   src="./images/img-3.jpg"
                   alt="Людина вибирає колір"
                   width="370"
@@ -292,11 +295,43 @@
           <h2 class="title-photo">Наша команда</h2>
           <ul class="photo list">
             <li class="photo-item">
-              <img
-                class="photo-img"
-                src="./images-1/img-4.jpg"
-                alt="Ігор Дем'яненко"
-              />
+              <picture>
+                <source
+                  srcset="./images/img-4-d.webp 1x, ./images/img-4-d@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-4-d.jpg 1x, ./images/img-4-d@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/img-4-t.webp 1x, ./images/img-4-t@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-4-t.jpg 1x, ./images/img-4-t@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/img-4.webp 1x, ./images/img-4@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-4.jpg 1x, ./images/img-4@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+
+                <img
+                  class="photo-img"
+                  src="./images/img-4.jpg"
+                  alt="Ігор Дем'яненко"
+                />
+              </picture>
               <div class="caption">
                 <h3 class="title-name">Ігор Дем'яненко</h3>
                 <p class="position" lang="en">Product Designer</p>
@@ -350,11 +385,43 @@
             </li>
 
             <li class="photo-item">
-              <img
-                class="photo-img"
-                src="./images-1/img-5.jpg"
-                alt="Ольга Репіна"
-              />
+              <picture>
+                <source
+                  srcset="./images/img-5-d.webp 1x, ./images/img-5-d@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-5-d.jpg 1x, ./images/img-5-d@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/img-5-t.webp 1x, ./images/img-5-t@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-5-t.jpg 1x, ./images/img-5-t@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/img-5.webp 1x, ./images/img-5@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-5.jpg 1x, ./images/img-5@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+
+                <img
+                  class="photo-img"
+                  src="./images/img-5.jpg"
+                  alt="Ольга Репіна"
+                />
+              </picture>
               <div class="caption">
                 <h3 class="title-name">Ольга Рєпіна</h3>
                 <p class="position" lang="en">Frontend Developer</p>
@@ -407,11 +474,43 @@
               </div>
             </li>
             <li class="photo-item">
-              <img
-                class="photo-img"
-                src="./images-1/img-6.jpg"
-                alt="Микола Тарасов"
-              />
+              <picture>
+                <source
+                  srcset="./images/img-6-d.webp 1x, ./images/img-6-d@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-6-d.jpg 1x, ./images/img-6-d@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/img-6-t.webp 1x, ./images/img-6-t@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-6-t.jpg 1x, ./images/img-6-t@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/img-6.webp 1x, ./images/img-6@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-6.jpg 1x, ./images/img-6@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+
+                <img
+                  class="photo-img"
+                  src="./images/img-6.jpg"
+                  alt="Микола Тарасов"
+                />
+              </picture>
               <div class="caption">
                 <h3 class="title-name">Микола Тарасов</h3>
                 <p class="position" lang="en">Marketing</p>
@@ -464,11 +563,43 @@
               </div>
             </li>
             <li class="photo-item">
-              <img
-                class="photo-img"
-                src="./images-1/img-7.jpg"
-                alt="Михайло Єрмаков"
-              />
+              <picture>
+                <source
+                  srcset="./images/img-7-d.webp 1x, ./images/img-7-d@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-7-d.jpg 1x, ./images/img-7-d@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="./images/img-4-7.webp 1x, ./images/img-7-t@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-7-t.jpg 1x, ./images/img-7-t@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="./images/img-7.webp 1x, ./images/img-7@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/img-7.jpg 1x, ./images/img-7@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+
+                <img
+                  class="photo-img"
+                  src="./images/img-7.jpg"
+                  alt="Михайло Єрмаков"
+                />
+              </picture>
               <div class="caption">
                 <h3 class="title-name">Михайло Єрмаков</h3>
                 <p class="position" lang="en">UI Designer</p>
@@ -526,55 +657,79 @@
 
       <!--client-->
 
-      <!--<section class="section section-client">
+      <section class="section section-client">
         <div class="container container-client">
           <h2 class="title-client">Постійні клієнти</h2>
           <ul class="client-list list">
-            <li class="client-list-item">
-              <a href="" class="client-list-link">
-                <svg lang="en" aria-label="logo1 icon" class="client-list-icon">
+            <li class="client-list__item">
+              <a href="" class="client-list__link">
+                <svg
+                  lang="en"
+                  aria-label="logo1 icon"
+                  class="client-list__icon"
+                >
                   <use href="./images/sprite.svg#icon-logo1"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list-item">
-              <a href="" class="client-list-link">
-                <svg lang="en" aria-label="logo2 icon" class="client-list-icon">
+            <li class="client-list__item">
+              <a href="" class="client-list__link">
+                <svg
+                  lang="en"
+                  aria-label="logo2 icon"
+                  class="client-list__icon"
+                >
                   <use href="./images/sprite.svg#icon-logo2"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list-item">
-              <a href="" class="client-list-link">
-                <svg lang="en" aria-label="logo3 icon" class="client-list-icon">
+            <li class="client-list__item">
+              <a href="" class="client-list__link">
+                <svg
+                  lang="en"
+                  aria-label="logo3 icon"
+                  class="client-list__icon"
+                >
                   <use href="./images/sprite.svg#icon-logo3"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list-item">
-              <a href="" class="client-list-link">
-                <svg lang="en" aria-label="logo4 icon" class="client-list-icon">
+            <li class="client-list__item">
+              <a href="" class="client-list__link">
+                <svg
+                  lang="en"
+                  aria-label="logo4 icon"
+                  class="client-list__icon"
+                >
                   <use href="./images/sprite.svg#icon-logo4"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list-item">
-              <a href="" class="client-list-link">
-                <svg lang="en" aria-label="logo5 icon" class="client-list-icon">
+            <li class="client-list__item">
+              <a href="" class="client-list__link">
+                <svg
+                  lang="en"
+                  aria-label="logo5 icon"
+                  class="client-list__icon"
+                >
                   <use href="./images/sprite.svg#icon-logo5"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-list-item">
-              <a href="" class="client-list-link">
-                <svg lang="en" aria-label="logo6 icon" class="client-list-icon">
+            <li class="client-list__item">
+              <a href="" class="client-list__link">
+                <svg
+                  lang="en"
+                  aria-label="logo6 icon"
+                  class="client-list__icon"
+                >
                   <use href="./images/sprite.svg#icon-logo6"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
     </main>
 
     <!--footer-->
