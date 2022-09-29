@@ -1,8 +1,15 @@
 @media screen and (max-width: 767px) {
     .client-list__item {
         display: block;
-        flex-basis: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px)/2);
+        
     }
+
+        .title-client {
+            font-size: 28px;
+            line-height: 1.18;
+        }
+
         .client-list__link {
             width: 210px;
             height: 92px;
@@ -27,7 +34,7 @@
     display: flex;
     justify-content: center;
     column-gap: 30px;
-}
+   }
 
 .client-list__link {
     @extend %align;
@@ -58,6 +65,11 @@
     .client-list__item {
         display: block;
         flex-basis: calc((100% - 60px) / 3);
+    }
+
+    .title-client {
+         font-size: 28px;
+        line-height: 1.18;
     }
 
     .client-list__link {
