@@ -3,6 +3,7 @@ screen and (min-width: 768px) {
     .modal {
         width: 450px;
         height: 609px;
+        padding: 93px;
     }
 }
 
@@ -37,6 +38,14 @@ screen and (min-width: 768px) {
 .modal-close-icon:hover,
 .modal-close-icon:focus {
     fill: var(--accent-font);
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 450px;
+        height: 609px;
+        padding: 203px;
+    }
 }
 
 
