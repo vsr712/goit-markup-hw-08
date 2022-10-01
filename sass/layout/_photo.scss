@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
     .photo-item {
         display: block;
+       
     }
 }
                                        
@@ -101,16 +102,19 @@
         }
 
     .photo-item {
-        flex-basis: calc((100% - 30px) / 4);
+    flex-basis: calc((100% - 30px) / 4);
     }
 }
 
+
+
+
 @media screen and (min-width: 1200px) {
     .photo {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
+        display: flex;
+        flex-wrap: wrap;
+         gap: 30px;
+    }
 
     .photo-item {
         flex-basis: calc((100% - 90px) / 4);
