@@ -217,7 +217,7 @@ body {
 .mobile-menu__media {
   display: flex;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -234,7 +234,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
 }
 
 .mobile-menu__media-link_current::after {
