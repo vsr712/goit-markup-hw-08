@@ -1,9 +1,8 @@
 @media screen and (max-width: 767px) {
-    .images-portfolio-item {
-        flex-basis: auto;
-        display: block
-    } 
-    
+   .images-portfolio-item {
+    display: block;
+   }
+           
     .bunton-container {
         display: flex;
         justify-content: flex-start;
@@ -11,8 +10,14 @@
         gap: 8px;
         margin-bottom: 40px;
     }
-
 }
+
+.images-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 
 .text-visually-hidden {
     position: absolute;
@@ -136,7 +141,7 @@
         }
 
         .images-portfolio-item {
-            width:  calc((100% - 30px) / 2);
+            flex-basis:  calc((100% - 30px) / 2);
             display: block;
         }
 }
