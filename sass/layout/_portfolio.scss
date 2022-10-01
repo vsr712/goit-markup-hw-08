@@ -112,6 +112,7 @@
     border-bottom: 1px solid var(--section-color-light3);
     background-color: var(--primary-text-color-light);
     padding: 20px 24px;
+    
 }
 
 .images-link:hover,
@@ -144,6 +145,7 @@
             flex-basis:  calc((100% - 30px) / 2);
             display: block;
         }
+        
 }
 
 @media screen and (min-width: 1200px) {
