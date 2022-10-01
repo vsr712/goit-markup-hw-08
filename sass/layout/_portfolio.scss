@@ -136,7 +136,7 @@
         }
 
         .images-portfolio-item {
-            flex-basis: calc((100% - 30px) / 2);
+            width:  calc((100% - 30px) / 2);
             display: block;
         }
 }

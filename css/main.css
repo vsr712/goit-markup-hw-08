@@ -101,7 +101,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1036,7 +1036,7 @@ body {
     gap: 30px;
   }
   .photo-item {
-    flex-basis: calc((100% - 30px) / 2);
+    width: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1265,7 +1265,7 @@ body {
     gap: 30px;
   }
   .images-portfolio-item {
-    flex-basis: calc((100% - 30px) / 2);
+    width: calc((100% - 30px) / 2);
     display: block;
   }
 }
