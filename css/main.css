@@ -1036,7 +1036,7 @@ body {
     gap: 30px;
   }
   .photo-item {
-    flex-basis: calc((100% - 30px) / 4);
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1265,7 +1265,7 @@ body {
     gap: 30px;
   }
   .images-portfolio-item {
-    flex-basis: calc((100% - 30px) / 9);
+    flex-basis: calc((100% - 30px) / 2);
     display: block;
   }
 }
@@ -1278,7 +1278,7 @@ body {
     margin-bottom: 50px;
   }
   .images-portfolio-item {
-    flex-basis: calc((100% - 90px) / 9);
+    flex-basis: calc((100% - 90px) / 3);
     display: block;
   }
 }
