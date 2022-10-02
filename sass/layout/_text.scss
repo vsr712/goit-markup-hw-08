@@ -12,6 +12,10 @@
     .group-list-link {
         width: 450px;
     }
+        .section-text {
+            min-width: 480px;
+            justify-content: center;
+        }
 }
 
 .text {
@@ -73,6 +77,9 @@
         flex-basis: calc((100% - 30px) / 2);
         display: block;
     }
+         .section-text {
+             width: none;
+         }
 }
 
 
@@ -83,6 +90,9 @@
         flex-basis: calc((100% - 90px) / 4);
         display: block;
     }
+         .section-text {
+             width: none;
+         }
 
 }
 

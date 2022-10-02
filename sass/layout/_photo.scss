@@ -3,11 +3,17 @@
         display: block;
        
     }
+    .section-photo {
+        min-width: 480px;
+    }
+    
 }
+
                                        
 
 .section-photo {
     background-color: var(--section-color-light2);
+    
 }
 
 .title-photo {
@@ -104,6 +110,9 @@
     .photo-item {
     width: calc((100% - 30px)/2);
     }
+        .section-photo {
+            width: none;
+        }
 }
 
 
@@ -125,4 +134,7 @@
         line-height: 1.17;
         margin-bottom: 50px;
     }
+         .section-photo {
+             width: none;
+         }
 }

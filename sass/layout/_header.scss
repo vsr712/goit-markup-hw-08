@@ -18,6 +18,13 @@
         width: 40px;
         height: 40px;
     }
+        .page-header {
+            max-width: 480px;
+            }
+
+        .page-header__container {
+            max-width: 450px;
+}
 }
 
 .page-header {
@@ -31,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 @media screen and (min-width: 768px) {
