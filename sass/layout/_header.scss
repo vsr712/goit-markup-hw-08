@@ -1,10 +1,10 @@
 @media screen and (max-width: 767px) {
     .menu {
-    display: none;
+        display: none;
     }
 
     .contact {
-    display: none;
+        display: none;
     }
 
     .open-mobile-menu-btn {
@@ -18,13 +18,14 @@
         width: 40px;
         height: 40px;
     }
-        .page-header {
-            max-width: 480px;
-            }
 
-        .page-header__container {
-            max-width: 450px;
-}
+    .page-header {
+        max-width: 480px;
+    }
+
+    .page-header__container {
+        max-width: 450px;
+    }
 }
 
 .page-header {
@@ -38,27 +39,35 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 @media screen and (min-width: 768px) {
     .open-mobile-menu-btn {
         display: none;
     }
+
     .menu {
         display: flex;
         column-gap: 50px;
     }
+
     .contact {
         display: block;
         margin-left: auto;
         column-gap: 10px;
     }
-}
+
+        
+    .menu__link-active {
+        color: var(--aczent-font);
+    }
+
+
 
 .page-header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 26px;
+    padding-bottom: 26px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,6 +76,7 @@
     display: flex;
     align-items: center;
 }
+
 .menu__link {
     font-weight: 500;
     font-style: normal;
@@ -100,8 +110,8 @@
 }
 
 .contact__envelope {
-    width: 16px;
-    height: 12px;
+    width: 14px;
+    height: 10px;
     margin-right: 10px;
 
 }
@@ -109,14 +119,15 @@
 .contact__email {
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-dark);
     fill: currentColor;
     display: flex;
     align-items: center;
     transition: color var(--transition-dur-and-func);
+    margin-bottom: 10px;
 
     &:hover,
     &:focus {
@@ -126,7 +137,7 @@
 
 .contact__smartphone {
     width: 10px;
-    height: 16px;
+    height: 14px;
     margin-right: 10px;
 }
 
@@ -135,8 +146,8 @@
     align-items: center;
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-dark);
     fill: currentColor;
@@ -147,20 +158,126 @@
         color: var(--accent-font);
     }
 }
+}
 
 @media screen and (min-width: 1200px) {
-   
-.menu {
-    display: flex;
-    column-gap: 50px;
-}
 
-.contact {
-    display: flex;
-    margin-left: auto;
-}
+.page-header {
+        color: var(--primary-text-color-light);
+        border-bottom: 1px solid var(--line-color-light4);
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.contact__item {
-    margin-right: 30px;
-}
+    .page-header-container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .page-navigation {
+        display: flex;
+        align-items: center;
+       
+    }
+
+    .menu {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    .contact {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .contact__item {
+        margin-right: 30px;
+    }
+
+    .menu__link {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-dark);
+        transition: color var(--transition-dur-and-func);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-font);
+        }
+    }
+
+    .menu__item {
+        position: relative;
+        color: var(--accent-font);
+    }
+
+    .menu__link-active {
+        color: var(--aczent-font);
+    }
+
+    .menu__link_current::after {
+        position: absolute;
+        display: block;
+        content: "";
+        left: 0;
+        top: 54px;
+        width: 100%;
+        height: 4px;
+        background: #2196F3;
+        border-radius: 2px;
+    }
+
+    .contact__envelope {
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+
+    }
+
+    .contact__email {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color-dark);
+        fill: currentColor;
+        display: flex;
+        align-items: center;
+        transition: color var(--transition-dur-and-func);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-font);
+        }
+    }
+
+    .contact__smartphone {
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
+    }
+
+    .contact__phone {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color-dark);
+        fill: currentColor;
+        transition: color var(--transition-dur-and-func);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-font);
+        }
+    }
 }
