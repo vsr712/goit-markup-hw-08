@@ -145,8 +145,30 @@
             flex-basis:  calc((100% - 30px) / 2);
             display: block;
         }
+        .images-link {
+            display: flex;
+            flex-direction: column;
+            
+        }
+           
+        .description {
+            flex-grow: 1;
+            height: 100%;
+        }
         
 }
+
+.images-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.description {
+    flex-grow: 1;
+}
+
 
 @media screen and (min-width: 1200px) {
 
