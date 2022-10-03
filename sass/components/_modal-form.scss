@@ -1,6 +1,8 @@
 .modal-form-title {
-    @include font(20px, 700, 23px);
     font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
     text-align: center;
     color: var(--primary-text-color-dark);
     margin-bottom: 12px;
@@ -43,6 +45,7 @@
 
 .modal-form-input-wrapper {
     position: relative;
+    display: block;
 }
 
 .modal-form-input-icon {
