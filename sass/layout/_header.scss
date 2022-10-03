@@ -13,6 +13,7 @@
         border: none;
         background-color: transparent;
         padding: 0;
+        margin-left: auto;
     }
 
     .open-mobile-menu-btn__icon {
@@ -22,10 +23,13 @@
 
     .page-header {
         max-width: 480px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 
     .page-header__container {
         max-width: 450px;
+        align-items: center;
     }
 }
 

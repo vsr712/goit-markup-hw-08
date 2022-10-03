@@ -320,7 +320,7 @@ body {
   pointer-events: none;
 }
 
-@media screen and (max-width: 767px), screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .modal {
     width: 450px;
     height: 609px;
@@ -560,6 +560,7 @@ body {
     border: none;
     background-color: transparent;
     padding: 0;
+    margin-left: auto;
   }
   .open-mobile-menu-btn__icon {
     width: 40px;
@@ -567,9 +568,12 @@ body {
   }
   .page-header {
     max-width: 480px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   .page-header__container {
     max-width: 450px;
+    align-items: center;
   }
 }
 .page-header {
