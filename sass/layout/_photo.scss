@@ -2,10 +2,11 @@
     .photo-item {
         display: block;
        
+       
     }
     .section-photo {
-        min-width: 480px;
-       
+        
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

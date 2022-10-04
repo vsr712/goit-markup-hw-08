@@ -9,14 +9,14 @@
     }
 
     .group-list-link {
-        width: 450px;
+        
+        flex-direction: column;
     }
         .section-text {
-            min-width: 480px;
-            
             justify-content: center;
             align-items: center;
         }
+          
 }
 
 .text {

@@ -25,10 +25,10 @@
 
         .form-footer__input {
             margin-bottom: 20px;
-            width: 450px;
+            max-width: 450px;
         }
         .page-footer {
-            min-width: 480px;
+            /*max-width: 480px;*/
         }
 }
 .container-footer {
