@@ -1,7 +1,6 @@
 @media screen and (max-width: 767px) {
         
     .text__item {
-        flex-basis: auto;
         display: block;
     }
 
@@ -14,7 +13,9 @@
     }
         .section-text {
             min-width: 480px;
+            
             justify-content: center;
+            align-items: center;
         }
 }
 
