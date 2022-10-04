@@ -92,11 +92,9 @@ body {
   margin-right: auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 450px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1289,7 +1287,6 @@ body {
   }
   .bunton-container {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 40px;
@@ -1399,7 +1396,6 @@ body {
 @media screen and (min-width: 768px) {
   .bunton-container {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 8px;
     margin-bottom: 30px;
@@ -1414,25 +1410,15 @@ body {
     flex-basis: calc((100% - 30px) / 2);
     display: block;
   }
-  .description {
-    flex-grow: 1;
-  }
   .images-link {
     display: flex;
     flex-direction: column;
     height: 100%;
   }
+  .description {
+    flex-grow: 1;
+  }
 }
-.images-link {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.description {
-  flex-grow: 1;
-}
-
 @media screen and (min-width: 1200px) {
   .bunton-container {
     display: flex;
