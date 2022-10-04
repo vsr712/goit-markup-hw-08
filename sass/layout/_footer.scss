@@ -152,6 +152,7 @@
 
 .form-footer__input {
     max-width: 450px;
+    width: 100%;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -251,9 +252,7 @@
         width: 450px;
 
     }
-    .page-footer {
-        min-width: none;
-    }
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -303,9 +302,7 @@
             width: 358px;
         }
 
-        .page-footer {
-            min-width: none;
-        }
+        
 }
 
  

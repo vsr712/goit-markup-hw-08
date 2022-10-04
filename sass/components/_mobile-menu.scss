@@ -1,9 +1,32 @@
-@media screen and (max-width: 767px) {
+.mobile-menu__contact-phone {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-font);
+    }
+}
+
+.mobile-menu__media-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
 .mobile-menu {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 80;
+    z-index: 90;
     width: 100%;
     height: 100%;
     background: #FFFFFF;
@@ -25,6 +48,9 @@
     padding-left: 40px;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
    
    
   
@@ -54,7 +80,7 @@
 
 .mobile-menu__list {
     display: block;
-    margin-bottom: 302px;
+    margin-bottom: auto;
         
 }
 
@@ -87,21 +113,6 @@
     margin-bottom: 32px;
 }
 
-.mobile-menu__contact-phone {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 1.18;
-    letter-spacing: 0.02em;
-    color: #757575;
-    transition: color var(--transition-dur-and-func);
-       
-    &:hover,
-    &:focus {
-        color: var(--accent-font);
-    }
-}
-
 .mobile-menu__contact-email {
     font-style: normal;
     font-weight: 500;
@@ -119,15 +130,14 @@
 .mobile-menu__media {
     display: flex;
     align-items: center;
-    justify-content: baseline;
     gap: 20px;
-    margin-left: auto;
+    
     
 }
 .mobile-menu__media-link {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196F3;
@@ -139,7 +149,7 @@
     display: flex;
     align-items: center;
     justify-content: baseline;
-    
+ 
 }
 
 .mobile-menu__media-link_current::after {
@@ -151,6 +161,32 @@
     height: 0px;
     border-top: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
+}
+
+@media screen and (min-width: 480px) {
+
+.mobile-menu__contact-phone {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-font);
+    }
+}
+
+.mobile-menu__media-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
 }
 }
 
