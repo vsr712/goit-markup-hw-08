@@ -642,7 +642,7 @@ body {
     margin-left: auto;
     column-gap: 10px;
   }
-  .menu__link-active {
+  .menu__link_active {
     color: var(--aczent-font);
   }
   .page-header {
