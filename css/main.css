@@ -365,9 +365,9 @@ body {
 }
 .modal {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -10%);
   padding: 40px;
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -829,6 +829,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .hero {
+    max-width: 480px;
     height: 400px;
     padding-top: 118px;
     padding-bottom: 118px;
@@ -922,7 +923,7 @@ body {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img-bg-d@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img-bg-d@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1235,7 +1236,6 @@ body {
     gap: 30px;
   }
   .section-client {
-    max-width: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1441,7 +1441,6 @@ body {
 
 .images-link:hover,
 .images-link:focus {
-  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -1506,9 +1505,6 @@ body {
   .form-footer__input {
     margin-bottom: 20px;
     max-width: 450px;
-  }
-  .page-footer {
-    /*max-width: 480px;*/
   }
 }
 .container-footer {
@@ -1681,7 +1677,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: center;
+    justify-content: space-around;
   }
   .footer {
     display: block;
@@ -1693,7 +1689,6 @@ body {
     display: block;
     margin-bottom: 60px;
     text-align: center;
-    margin-left: auto;
   }
   .container-subscription {
     display: block;
@@ -1704,6 +1699,9 @@ body {
   .form-footer__input {
     margin-bottom: 20px;
     width: 450px;
+  }
+  .footer-list__item {
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1723,6 +1721,7 @@ body {
     display: flex;
     align-items: baseline;
     column-gap: 70px;
+    justify-content: space-between;
   }
   .title-subscription {
     font-weight: 700;
